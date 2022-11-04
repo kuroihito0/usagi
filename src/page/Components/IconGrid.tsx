@@ -5,14 +5,15 @@ import '../css/IconGrid.scss';
 
 type Props = {
   children: ReactNode;
+  key: string;
 };
 const IconGrid: FC<Props> = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Link to={'/register'}>
       <motion.div
+        key={props.key}
         layoutId='uwa'
-        layout
         data-isopen={isOpen}
         className='App1'
         onClick={() => setIsOpen(!isOpen)}
