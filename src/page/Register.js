@@ -11,16 +11,14 @@ import "./css/Home.scss";
     return (
             <div className="body_style">
                 <div className="SumahoBlock">
-                    
                     <div className="Grid_Frame">
                         <div className="Grid_Line">
                             <Link to={"/"}>
                             <motion.div
-                                layoutid="uwa"
+                                layout
                                 className="test"
                                 />
                             </Link>
-
                         </div>
                     </div>
                     {/*スマホ本体配置*/}

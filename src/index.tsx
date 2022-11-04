@@ -5,9 +5,7 @@ import {AnimateSharedLayout, motion} from "framer-motion";
 
 ReactDOM.render(
   <React.StrictMode>
-    <AnimateSharedLayout>
     <App />
-    </AnimateSharedLayout>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -17,21 +17,20 @@ const Home = () => {
     const RegisterPage = lazy(() => import('./Register'))
 
     return (
+        <AnimatePresence>
         <div className="body_style">
             <div className="SumahoBlock">
-                
                 <div className="Grid_Frame">
                     <div className="Grid_Line">
-                        <Link to={"/Register"}>
                         <IconGrid svgIcon={catIcon} />
                         <IconGrid svgIcon={MarmotIcon} />
                         <IconGrid svgIcon={TalkIcon}  />
-                        </Link>
                     </div>
                 </div>
                 <div className="Sumaho_Position" />
             </div>
         </div>
+        </AnimatePresence>
     );
 };
 

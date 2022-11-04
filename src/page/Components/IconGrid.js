@@ -8,9 +8,12 @@ const IconGrid = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
             <motion.div
-                layoutid="uwa"
+                layout
                 data-isOpen={isOpen}
                 className="App1"
+                transition={{
+                    layout:{duration:1}
+                }}
                 onClick={() => setIsOpen(!isOpen)}
                 >
             <motion.img src={props.svgIcon} className="TalkIcon_Size" whileHover={{ scale: 1.1 }} />
