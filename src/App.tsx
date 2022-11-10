@@ -1,4 +1,4 @@
-import { AnimateSharedLayout } from 'framer-motion';
+import { AnimatePresence, AnimateSharedLayout } from 'framer-motion';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './page/Home';
 import Login from './page/Login';
@@ -7,7 +7,7 @@ import Register from './page/Register';
 
 const App = () => {
   return (
-    <AnimateSharedLayout>
+    <AnimatePresence mode='wait'>
       <BrowserRouter>
         <Routes>
           <Route path={`/`} element={<Home />} />
@@ -16,7 +16,7 @@ const App = () => {
           <Route path={'/*/'} element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-    </AnimateSharedLayout>
+    </AnimatePresence>
   );
 };
 

@@ -1,23 +1,21 @@
-import { motion } from 'framer-motion';
-import { FC, ReactNode, useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { FC, PropsWithChildren, ReactNode, useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/IconGrid.scss';
 
 type Props = {
   children: ReactNode;
 };
-const IconGrid: FC<Props> = (props) => {
+const IconGrid: FC<PropsWithChildren<{id:string,url:string}>> = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <Link to={'/register'}>
+    <Link to={props.url} className="LinkStyle">
       <motion.div
-        layoutId='uwa'
-        layout
-        data-isopen={isOpen}
+        layoutId={props.id}
         className='App1'
-        onClick={() => setIsOpen(!isOpen)}
+        whileHover={{ scale: 1.1 }}
       >
-        <motion.div className='TalkIcon_Size' whileHover={{ scale: 1.1 }}>
+        <motion.div className='TalkIcon_Size'>
           {props.children}
         </motion.div>
       </motion.div>

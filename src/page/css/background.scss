@@ -1,0 +1,9 @@
+.player_wrapper{
+    position: relative;
+}
+.Screen {
+    position: absolute;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}

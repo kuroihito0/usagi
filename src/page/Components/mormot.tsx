@@ -3,9 +3,9 @@ const Mormot = () => {
     <svg
       version='1.0'
       xmlns='http://www.w3.org/2000/svg'
-      width='100'
-      height='100'
-      viewBox='0 0 737.000000 400.000000'
+      width='70'
+      height='70'
+      viewBox='0 -100 737.000000 400.000000'
       preserveAspectRatio='xMidYMid meet'
     >
       <g

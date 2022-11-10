@@ -1,46 +1,31 @@
 //*ここからアイコングリッドの個々のスタイル～～～
 .App1 {
-    text-align: center;
-    margin: auto;
-    width: 50px;
-    height: 50px;
-    z-index: 2;
-    display: -webkit-flex;
-
-    -webkit-align-items: center;
-    align-items: center;
-
+    width: 130%;
+    height: 12%;
+    z-index: 12;
+    background-color: azure;
+    border-radius: 30%;
+    pointer-events: auto;
+        margin-left: 120%;
 }
-
-.App1[data-isopen="true"] {
-    width: 550px;
-    height: 700px;
-    background-color: white;
-    z-index: 3;
-    position:absolute;
-		animation-duration: 1;
-}
-
 //アイコンサイズ
 .TalkIcon_Size {
-    margin-left: auto;
-    margin-right: auto;
+    z-index: 14;
     margin-bottom: 60px;
-    width: 100px;
-    height: 100px;
+    margin-left: 10%;
 		margin-top: 150px;
 }
-.TestLink{
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: auto;
-}
-
 .nakami{
-	background-color: white;
+	background-color: khaki;
 	width: 100%;
 	height: 100%;
+    border-radius: 1%;
+    margin-left: 3%;
+    position: absolute;
+}
+.LinkStyle{
+    pointer-events: none;
+}
+
+@media screen and (max-width:968px) {
 }

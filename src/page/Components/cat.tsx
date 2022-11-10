@@ -3,9 +3,9 @@ const Cat = () => {
     <svg
       version='1.0'
       xmlns='http://www.w3.org/2000/svg'
-      width='100'
-      height='100'
-      viewBox='0 0 517.000000 752.000000'
+      width='70'
+      height='70'
+      viewBox='50 -150 520.000000 890.000000'
       preserveAspectRatio='xMidYMid meet'
     >
       <g
