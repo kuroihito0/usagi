@@ -1,7 +1,4 @@
-import { Link } from "react-router-dom";
-import Cockkirby from "./pics/Cockkirby.gif";
-import React, { useRef, useEffect } from 'react'
-import video_mp4 from "./pics/Cockkirby.mp4"
+import React, { useEffect, useRef } from 'react';
 const NotFound = () => {
     const videoRef = useRef<HTMLVideoElement>(null);
     useEffect(() => {
