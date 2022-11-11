@@ -17,10 +17,11 @@ const Register = () => {
   return (
     <div className='body_style'>
       <div className='SumahoBlock'>
+      <Background/>
         <motion.div layoutId='uwa' className='nakami' />
         <div className='Sumaho_Position'>
-
-
+          <motion.div 
+          style={{backgroundColor:"azure",fontSize:"40px"}}>いのしし🐗</motion.div>
           {/*スマホ本体配置*/}
           {/* {
             loading ? (
@@ -48,6 +49,7 @@ const Register = () => {
 
             ) : ( */}
 
+          {/* 丸のフェード
             <motion.div
               initial={{opacity:0}}
               animate ={{
@@ -58,10 +60,7 @@ const Register = () => {
               transition={{
                 duration:9
               }} 
-              style={{ backgroundColor: "red", width: "50%", height: "30%", zIndex: "0", position: "absolute",marginTop:"40%",marginLeft:"25%",marginRight:"auto"}}></motion.div>
-
-
-
+              style={{ backgroundColor: "red", width: "50%", height: "30%", zIndex: "0", position: "absolute",marginTop:"40%",marginLeft:"25%",marginRight:"auto"}}></motion.div> */}
         </div>
       </div>
     </div>

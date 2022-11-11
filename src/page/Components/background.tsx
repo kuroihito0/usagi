@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 
 const background = () =>{
     return (
-        <ReactPlayer playing loop width="550px" height="1000px" style={{ borderRadius:"10%",}} controls={false} className="Screen" url={video_mp4}/>
+        <ReactPlayer playing muted loop width="550px" height="900px" style={{ borderRadius:"10%",}} controls={false} className="Screen" url={video_mp4}/>
     )
 }
 export default background;

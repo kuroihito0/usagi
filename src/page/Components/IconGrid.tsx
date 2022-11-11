@@ -15,7 +15,7 @@ const IconGrid: FC<PropsWithChildren<{id:string,url:string}>> = (props) => {
         className='App1'
         whileHover={{ scale: 1.1 }}
       >
-        <motion.div className='TalkIcon_Size'>
+        <motion.div transition={{duration:"9"}} className='TalkIcon_Size'>
           {props.children}
         </motion.div>
       </motion.div>
