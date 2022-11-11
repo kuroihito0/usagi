@@ -1,27 +1,24 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import "./css/Home.scss";
-import Background from "./Components/background";
-import { duration } from '@material-ui/core';
+import Background from './Components/background';
+import './css/Home.scss';
 const Register = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
-    setLoading(true)
-    setTimeout(() => [
-      setLoading(false)
-    ], 80000)
-  }, [])
+    setLoading(true);
+    setTimeout(() => [setLoading(false)], 80000);
+  }, []);
 
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className='body_style'>
       <div className='SumahoBlock'>
-      <Background/>
+        <Background />
         <motion.div layoutId='uwa' className='nakami' />
         <div className='Sumaho_Position'>
-          <motion.div 
-          style={{backgroundColor:"azure",fontSize:"40px"}}>いのしし🐗</motion.div>
+          <motion.div style={{ backgroundColor: 'azure', fontSize: '40px' }}>
+            いのしし🐗
+          </motion.div>
           {/*スマホ本体配置*/}
           {/* {
             loading ? (
