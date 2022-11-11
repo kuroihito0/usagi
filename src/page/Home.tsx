@@ -6,6 +6,8 @@ import Shark from "./svg/shark";
 import Penguin from "./svg/Penguin";
 import Kirby from "./svg/kirby_sleep";
 
+
+
 import { motion } from "framer-motion";
 import Background from "./Components/background";
 //import './css/Home.scss';
