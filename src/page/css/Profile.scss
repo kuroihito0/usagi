@@ -22,19 +22,6 @@
     position: flex;
 }
 
-.header {
-    overflow: auto;
-    margin-right: 45%;
-    margin-top: 15%;
-    font-family: pupupu;
-    letter-spacing: -7px;
-    font-weight: 900;
-    font-size: 45px;
-    z-index: 2;
-    position: sticky;
-    top: 10px;
-}
-
 .Profile {
     margin-top: 15%;
     z-index: 2;
@@ -43,14 +30,35 @@
     width: 25%;
     height: auto;
     margin-left: 10%;
-}
+    border:4px solid;
 
-.progress-bar {
-    position: fixed;
+}
+.header {
+    overflow: auto;
+    margin-right: 43%;
+    margin-top: 15%;
+    font-family: pupupu;
+    letter-spacing: -7px;
+    font-weight: 900;
+    font-size: 48px;
+    z-index: 2;
+
+}
+.iconBackground{
+    background-color: aliceblue;
+    width: 85px;
+    height: 80px;
+    border-radius: 30%;
+    margin-left: 7%;
+    border: solid 5px black;
+    pointer-events: auto;
+    text-decoration: none;
+}
+.iconBackground .Link{
+    position:absolute;
     top: 0;
     left: 0;
-    right: 0;
-    height: 10px;
-    background: var(--red);
-    transform-origin: 0%;
+    height: 80px;
+    width: 85px;
+    text-decoration:none;
 }
