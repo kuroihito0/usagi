@@ -5,10 +5,7 @@ import video_mp4 from "./pics/Cockkirby.mp4"
 const NotFound = () => {
 
     return (
-        
-        <>
             <div> おさるさんだ！🐵🐵</div>
-        </>
     );
 };
 

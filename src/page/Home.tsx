@@ -22,7 +22,6 @@ const Home = () => {
 
 
   return (
-
     <div className='body_style'>
       <div className='SumahoBlock'>
         <Background />
@@ -35,7 +34,7 @@ const Home = () => {
               <IconGrid id="menkyo" url="Login">
                 <Mormot />
               </IconGrid>
-              <IconGrid id="karimen" url="NotFound">
+              <IconGrid id="karimen" url="Test">
                 <Kirby />
               </IconGrid>
             </div>

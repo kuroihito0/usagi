@@ -4,6 +4,7 @@ import Home from './page/Home';
 import Login from './page/Login';
 import NotFound from './page/NotFound';
 import Register from './page/Register';
+import Test from "./page/Test";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path={`/register/`} element={<Register />} />
           <Route path={`/login/`} element={<Login />} />
           <Route path={'/*/'} element={<NotFound />} />
+          <Route path={'/Test/'} element={<Test />}/>
         </Routes>
       </BrowserRouter>
     </AnimatePresence>

@@ -1,4 +1,6 @@
 //*ここからアイコングリッドの個々のスタイル～～～
+
+
 .App1 {
     width: 130%;
     height: 12%;
@@ -16,15 +18,17 @@
 		margin-top: 150px;
 }
 .nakami{
-	background-color: khaki;
+	background-image: url(../pics/haikei3.png);
 	width: 100%;
 	height: 100%;
     border-radius: 10%;
     position: absolute;
+    pointer-events: none;
 }
 .LinkStyle{
     pointer-events: none;
 }
+
 
 @media screen and (max-width:968px) {
 }

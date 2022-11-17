@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Acme-Regular";
+    src: url(/src/page/Font/Acme-Regular.ttf);
+    font-family: "AirAmerica";
+    src: url(/src/page/Font/AirAmerica-Regular.otf);
+    font-family: "pupupu";
+    src: url(/src/page/Font/pupupu-free.otf);
+    font-family: "kyoryu";
+    src: url(/src/page/Font/KyouryunoGuratan.otf);
+    font-family: "a";
+    src: url(/src/page/Font/HOLIA___.TTF);
+    font-family: "ab";
+    src: url(/src/page/Font/HOLIH___.TTF);
+    font-family: "abc";
+    src: url(/src/page/Font/HOLIK___.TTF);
+}
+
+.headerPosition {
+    font-size: 30%;
+    height: 30%;
+    text-Align: left;
+    position: flex;
+}
+
+.header {
+    overflow: auto;
+    margin-right: 45%;
+    margin-top: 15%;
+    font-family: pupupu;
+    letter-spacing: -7px;
+    font-weight: 900;
+    font-size: 45px;
+    z-index: 2;
+    position: sticky;
+    top: 10px;
+}
+
+.Profile {
+    margin-top: 15%;
+    z-index: 2;
+    position: absolute;
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--red);
+    transform-origin: 0%;
+}

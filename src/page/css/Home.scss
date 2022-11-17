@@ -1,9 +1,21 @@
+@font-face {
+    font-family: "Acme-Regular";
+    src: url(/src/page/Font/Acme-Regular.ttf);
+    font-family: "AirAmerica";
+    src: url(/src/page/Font/AirAmerica-Regular.otf);
+    font-family: "20db";
+    src:url(C:\Users\kanji\respon\smartphone\src\page\Font\20db.otf);
+    font-family: "pupupu";
+    src: url(/src/page/Font/pupupu-free.otf);
+}
 body {
     margin: 0;
+
 }
 
 .body_style {
-    background: linear-gradient(250deg, #7b2ff7, #f107a3);
+    min-height: 100vh;
+    background: linear-gradient(250deg,#89A0F8, #F999B6);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -38,7 +50,7 @@ body {
         height: 630px;
         justify-content: center;
         align-items: center;
-        z-index: auto;
+        z-index: 1;
         pointer-events: none;
     }
     .Grid_Line{
@@ -70,5 +82,6 @@ body {
         width: 500px;
         height: 500px;
     }
+
 }
 

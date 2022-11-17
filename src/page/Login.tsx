@@ -11,6 +11,7 @@ const Login = () => {
         videoRef.current?.play();
     }, []);
     return (
+        <body>
         <div className='body_style'>
             <div className='SumahoBlock'>
                 {/*スマホ本体配置*/}
@@ -21,6 +22,7 @@ const Login = () => {
                 </div>
             </div>
         </div>
+        </body>
     );
 };
 export default Login;
