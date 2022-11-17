@@ -1,4 +1,3 @@
-import { height } from '@mui/system';
 import { AnimatePresence, motion, useScroll } from 'framer-motion';
 import { FC, PropsWithChildren, ReactNode, useState } from 'react';
 import { Link } from 'react-router-dom';
