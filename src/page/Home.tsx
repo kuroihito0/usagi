@@ -5,6 +5,9 @@ import Mormot from './svg/mormot';
 import Shark from "./svg/shark";
 import Penguin from "./svg/Penguin";
 import Kirby from "./svg/kirby_sleep";
+import Wadoru from "./svg/Wadoru";
+import Wadorudoo from "./svg/wadorudoo";
+
 
 
 
@@ -21,6 +24,7 @@ const Home = () => {
   const RegisterPage = lazy(() => import('./Register'));
 
 
+
   return (
     <div className='body_style'>
       <div className='SumahoBlock'>
@@ -28,13 +32,13 @@ const Home = () => {
         <div className='Sumaho_Position' >
           <div className='Grid_Frame'>
             <div className='Grid_Line'>
-              <IconGrid id="uwa" url="register">
-                <Cat />
+              <IconGrid id="uwa" url="register" Name="PROFILE">
+                <Wadoru />
               </IconGrid>
-              <IconGrid id="menkyo" url="Login">
-                <Mormot />
+              <IconGrid id="menkyo" url="Login" Name="INFO">
+                <Wadorudoo />
               </IconGrid>
-              <IconGrid id="karimen" url="Test">
+              <IconGrid id="karimen" url="Test" Name="WORKS">
                 <Kirby />
               </IconGrid>
             </div>

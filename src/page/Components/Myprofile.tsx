@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 import '../css/Home.scss';
 import "../css/Profile.scss"
 import profile from "../pics/profile.png";
-import Twitter from '../svg/twitter';
-import Youtube from '../svg/Youtube';
+
 
 
 import SnsIcon from './SnsIcon';
@@ -25,7 +24,6 @@ const MyName = () => {
             >
                 <img src={profile} className="Profile" />
                 <div className='liner' style={{ border:'4px solid ',backgroundColor: "#d3ecfb", width: "100%", height: "100%", zIndex: "1", position: "absolute", marginTop: "30%", textAlign: "center", overflow: "auto", msOverflowStyle: 'none',borderRadius:'0 0 50% 50%'}}>
-   
                         <p className='header'>ヒカル ニシダ<br /></p>
                         <SnsIcon/>
 
@@ -33,7 +31,7 @@ const MyName = () => {
                         <p style={{ marginLeft:"10%",textAlign:'left',fontSize: "20px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">📚が好き<br />'1984' '三日間の幸福' お気に入り<br /></p>
                         <p style={{ fontSize: "40px" ,color:'#4b4845'}} className="font"></p>
                         <p style={{ fontSize: "40px" }}>🐙</p>
-                        <p style={{ fontSize: "40px" }}>🐙</p>
+                        <p style={{ fontSize: "40px" }}>🦑</p>
 
 
                     </div>

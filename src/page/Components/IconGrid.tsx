@@ -6,7 +6,7 @@ import '../css/IconGrid.scss';
 type Props = {
   children: ReactNode;
 };
-const IconGrid: FC<PropsWithChildren<{ id: string, url: string }>> = (props) => {
+const IconGrid: FC<PropsWithChildren<{ id: string, url: string, Name: string }>> = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Link to={props.url} className="LinkStyle">
@@ -20,7 +20,10 @@ const IconGrid: FC<PropsWithChildren<{ id: string, url: string }>> = (props) => 
           <motion.div transition={{ duration: "3" }} className='TalkIcon_Size'>
             {props.children}
           </motion.div>
+
         </motion.div>
+        <span style={{marginLeft:"145%"}} className="IconNameAbout">{props.Name}</span>
+
       {/*</motion.div>*/}
     </Link>
   );
