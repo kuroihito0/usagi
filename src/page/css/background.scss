@@ -6,4 +6,16 @@
     pointer-events: none;
     z-index: 0;
     overflow: hidden;
+    border-radius: 10%;
+}
+@media screen and (max-width:544px) {
+    .Screen{
+        margin-right:30%;
+        border-radius: 10% 10% 30% 30%;
+    }
+}
+@media screen and (max-width:445px){
+    .Screen{
+        border-radius: 10% 10% ;
+    }
 }

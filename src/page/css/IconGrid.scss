@@ -35,6 +35,7 @@
 }
 .IconNameAbout{
     font-family: kirby;
+    text-decoration: none;
     color:black;
     font-weight: 900;
     font-size: 20px;
@@ -43,8 +44,23 @@
 	align-items: center;
     margin-top: 3%;
     letter-spacing: 1px;
+    margin-left: 145%;
 }
 
 
-@media screen and (max-width:968px) {
+@media screen and (max-width:544px) {
+    .App1{
+        margin-left: 10%;
+    }
+    .IconNameAbout{
+        margin-left: 50%;
+    }
+    .nakami{
+        width: 85%;
+    }
+}
+@media screen and (max-width:504px) {
+    .nakami{
+        width: 100%;
+    }
 }

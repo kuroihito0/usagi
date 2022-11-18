@@ -22,7 +22,7 @@ const IconGrid: FC<PropsWithChildren<{ id: string, url: string, Name: string }>>
           </motion.div>
 
         </motion.div>
-        <span style={{marginLeft:"145%"}} className="IconNameAbout">{props.Name}</span>
+        <span  className="IconNameAbout">{props.Name}</span>
 
       {/*</motion.div>*/}
     </Link>
