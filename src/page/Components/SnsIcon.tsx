@@ -26,7 +26,7 @@ const SnsIcon = () => {
                     
                 </motion.div>
                 <div style={{ position: 'absolute', backgroundColor: 'black', width: '85px', height: '80px', borderRadius: '30%', zIndex: '-1', marginRight: '69%', marginTop: '4%' ,pointerEvents:'auto'}} />
-                <div className='iconBack' style={{ position: 'absolute', backgroundColor: 'black', width: '85px', height: '80px', borderRadius: '30%', zIndex: '-1', marginRight: '13%', marginTop: '4%',pointerEvents:'auto' }} />
+                <div className='iconBack' style={{ position: 'absolute', backgroundColor: 'black', width: '85px', height: '80px', borderRadius: '30%', zIndex: '-1', marginRight: '14%', marginTop: '4%',pointerEvents:'auto' }} />
                 
             </div>
         </>
