@@ -9,12 +9,12 @@ const background = () =>{
     var WindowWidth = "550px"
     var WindowHeight = "900px"
     console.log({width},{height});
-    if(width<=445){
-        WindowWidth = "370px"
-        WindowHeight = "700px"
-    }else if(width<=544){
-        WindowWidth = "450px";
-        WindowHeight = "800px"
+    if(width<=480){
+        WindowWidth = "100%"
+        WindowHeight = "100%"
+    }else if(width<=600){
+        WindowWidth = "100%";
+        WindowHeight = "100%";
     }
     return (
 

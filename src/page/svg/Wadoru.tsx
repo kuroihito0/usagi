@@ -1,6 +1,8 @@
-const Wadoru = () => {
+import { FC, PropsWithChildren } from "react";
+
+const Wadoru:FC<PropsWithChildren<{ width:string,height:string }>> = (props) =>  {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="3 -2 29 29" shape-rendering="crispEdges" width="70" height="70">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 -1 34 29" shape-rendering="crispEdges" width={props.width} height={props.height}>
             <g>
             <path stroke="#000000" d="M6 5h5M12 5h14M5 6h1M11 6h1M26 6h1M4 7h1M27 7h1M4 8h1M27 8h1M4 9h1M27 9h1M4 10h1M27 10h1M4 11h1M26 11h1M5 12h1M17 12h2M21 12h2M26 12h1M5 13h1M18 13h1M22 13h1M26 13h1M5 14h1M18 14h1M22 14h1M27 14h1M5 15h1M27 15h1M5 16h1M27 16h1M5 17h1M27 17h1M6 18h1M27 18h1M6 19h1M26 19h1M7 20h1M26 20h1M8 21h1M25 21h1M7 22h1M24 22h1M7 23h1M23 23h1M7 24h1M13 24h2M22 24h1M7 25h1M13 25h2M21 25h1M8 26h1M12 26h1M15 26h1M20 26h1M9 27h3M16 27h4" />
             <path stroke="#d64a10" d="M6 6h1M5 7h1M6 15h1M6 16h1M9 21h1M15 21h1M11 22h1M14 22h1" />

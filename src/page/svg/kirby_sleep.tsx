@@ -1,11 +1,14 @@
-const kirby_sleep = () => {
+import { FC, PropsWithChildren } from "react";
+
+
+const kirby_sleep:FC<PropsWithChildren<{ width:string,height:string }>> = (props) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="3 -3 34 32"
             shape-rendering="crispEdges"
-            width='70'
-            height='70'
+            width={props.width}
+            height={props.height}
         >
             <metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</metadata>
             <g>

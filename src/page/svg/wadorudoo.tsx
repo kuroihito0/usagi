@@ -1,6 +1,8 @@
-const Wadorudoo = () => {
+import { FC, PropsWithChildren } from "react";
+
+const Wadorudoo:FC<PropsWithChildren<{ width:string,height:string }>> = (props) => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="3 1 34 32" shape-rendering="crispEdges" width="70" height="70">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="3 1 34 32" shape-rendering="crispEdges" width={props.width} height={props.height}>
             <metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</metadata>
             <path stroke-opacity={1} d="M0 0h34M0 1h34M0 2h34M0 3h34M0 4h34M0 5h34M0 6h12M14 6h6M21 6h13M0 7h14M15 7h5M21 7h13M0 8h15M17 8h2M20 8h14M0 9h17M18 9h1M20 9h14M0 10h6M12 10h2M28 10h6M0 11h5M29 11h5M0 12h4M30 12h4M0 13h4M30 13h4M0 14h4M30 14h4M0 15h4M30 15h4M0 16h4M30 16h4M0 17h5M29 17h5M0 18h6M29 18h5M0 19h6M29 19h5M0 20h6M29 20h5M0 21h6M30 21h4M0 22h6M31 22h3M0 23h6M32 23h2M0 24h6M32 24h2M0 25h6M32 25h2M0 26h5M32 26h2M0 27h5M31 27h3M0 28h5M30 28h4M0 29h5M29 29h5M0 30h6M28 30h6M0 31h7M12 31h22M0 32h34M0 33h34M0 34h34M0 35h34M0 36h34M0 37h34M0 38h34" />
             <path stroke="#000000" d="M12 6h2M20 6h1M14 7h1M20 7h1M15 8h2M19 8h1M17 9h1M19 9h1M6 10h6M14 10h14M5 11h1M12 11h2M28 11h1M4 12h1M19 12h4M29 12h1M4 13h1M18 13h1M21 13h1M23 13h1M29 13h1M4 14h1M17 14h1M22 14h3M29 14h1M4 15h1M16 15h2M24 15h1M29 15h1M4 16h1M16 16h2M23 16h2M29 16h1M5 17h1M16 17h2M22 17h3M28 17h1M6 18h1M16 18h4M21 18h1M24 18h1M28 18h1M6 19h1M17 19h1M24 19h1M28 19h1M6 20h1M18 20h1M23 20h1M28 20h1M6 21h1M19 21h4M28 21h2M6 22h1M30 22h1M6 23h1M31 23h1M6 24h1M31 24h1M6 25h1M31 25h1M5 26h1M31 26h1M5 27h1M30 27h1M5 28h1M29 28h1M5 29h1M23 29h1M28 29h1M6 30h1M12 30h16M7 31h5" />
