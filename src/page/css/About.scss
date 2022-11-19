@@ -1,0 +1,33 @@
+@media screen and (max-width:680px){
+    .liner{
+        width: 60%;
+        border-radius: 0 !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+    }
+    .font{
+        font-size: 18px !important;
+    }
+    .header{
+        font-size: 48px !important;
+    }    
+    .iconBack{
+        margin-left: 43% !important;
+        margin-right: 57% !important;
+    }
+    
+
+}
+@media screen and (max-width:600px) {
+    .iconBack{
+        margin-left: 43% !important;
+    }
+    .content{
+        height: 100% !important;
+        width: 100% !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+        border-radius: 0% !important;
+        margin-left: 0% !important;
+    }
+}

@@ -29,8 +29,9 @@ const MyName = () => {
 
                     <div className='content' style={{ height: "80%", width: "95%", backgroundColor: "#fce9ed", position: "absolute" ,marginTop:'15%',border:'solid 5px #807e8a'}}>
                         <p style={{ marginLeft:"10%",textAlign:'left',fontSize: "20px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">📚が好き<br />'1984' '三日間の幸福' お気に入り<br /></p>
-                        <p style={{ fontSize: "40px" ,color:'#4b4845'}} className="font"></p>
-                        <p style={{ fontSize: "40px" }}>🐙</p>
+                        <p style={{ marginLeft:"10%",textAlign:'left',fontSize: "20px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">今回制作した作品はスマートフォンのようなサイトです。
+特徴としてSPA(”Single Page Application”（シングルページアプリケーション）。単一のページで、Webアプリケーションを構成する設計構造。SPAが実装されたページでは、遷移を行わずにコンテンツが切り替わるため、ユーザー体験（UX）の向上に繋がります)を実装していることです。</p>
+                        <p style={{ fontSize: "40px" }}></p>
                         <p style={{ fontSize: "40px" }}>🦑</p>
 
 
