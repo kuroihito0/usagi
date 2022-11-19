@@ -20,7 +20,7 @@ const SnsIcon = () => {
                 </motion.div>
 
                 
-                <motion.div className='iconBackground' whileHover={{ x: 10, y: 10 }} style={{marginRight:'%'}}>
+                <motion.div className='iconBackground' whileHover={{ x: 10, y: 10 }} style={{marginRight:'45%'}}>
                     <a href='https://www.youtube.com/@HikakinTV' target="_blank" rel="noopener noreferrer" className='Link'/>
                     <Youtube />
                     

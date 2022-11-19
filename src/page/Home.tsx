@@ -14,8 +14,8 @@ import Wadorudoo from "./svg/wadorudoo";
 import { motion } from "framer-motion";
 import Background from "./Components/background";
 import useWindowSize from "./Components/useWindowSize";
-//import './css/Home.scss';
-//import './css/IconGrid.scss';
+import './css/Home.scss';
+import './css/IconGrid.scss';
 
 const Home = () => {
   //Shift+tab= 範囲インデント削除
