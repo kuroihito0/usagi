@@ -13,16 +13,23 @@ import Wadorudoo from "./svg/wadorudoo";
 
 import { motion } from "framer-motion";
 import Background from "./Components/background";
-//import './css/Home.scss';
-//import './css/IconGrid.scss';
+import useWindowSize from "./Components/useWindowSize";
+import './css/Home.scss';
+import './css/IconGrid.scss';
 
 const Home = () => {
   //Shift+tab= 範囲インデント削除
   //Shift+alt+↑↓ = コピー
   const [isOpen, setIsOpen] = useState(false);
-
+  const [width, height] = useWindowSize();
+  var IconWidth = "70px"
+  var IconHeight = "70px"
   const RegisterPage = lazy(() => import('./Register'));
 
+  if (width <= 480) {
+    IconWidth = "50";
+    IconHeight = "50";
+  } 
 
 
   return (
@@ -32,14 +39,14 @@ const Home = () => {
         <div className='Sumaho_Position' >
           <div className='Grid_Frame'>
             <div className='Grid_Line'>
-              <IconGrid id="uwa" url="register" Name="PROFILE">
-                <Wadoru />
+              <IconGrid id="uwa" url="register" Name="Profile">
+                <Wadoru width={IconWidth} height={IconHeight}/>
               </IconGrid>
               <IconGrid id="menkyo" url="Login" Name="INFO">
-                <Wadorudoo />
+                <Wadorudoo width={IconWidth} height={IconHeight}/>
               </IconGrid>
               <IconGrid id="karimen" url="Test" Name="WORKS">
-                <Kirby />
+                <Kirby width={IconWidth} height={IconHeight}/>
               </IconGrid>
             </div>
           </div>
