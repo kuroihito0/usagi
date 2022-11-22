@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import '../css/Home.scss';
 import "../css/Profile.scss"
 import profile from "../pics/profile.png";
-import Work from "../pics/Works1.png";
+import Mili from "../pics/Mili.png";
 
 
 import SnsIcon from './SnsIcon';
@@ -24,7 +24,7 @@ const Works = () => {
             >
                 <img src={profile} className="Profile" />
                 <div className='liner' style={{ border:'4px solid ',backgroundColor: "#d3ecfb", width: "100%", height: "100%", zIndex: "1", position: "absolute", marginTop: "30%", textAlign: "center", overflow: "auto", msOverflowStyle: 'none',borderRadius:'0 0 50% 50%'}}>
-                    <img src={Work} style={{width:"80%",height:"auto",marginTop:"10%",border:"solid 4px"}}/>
+                    <img src={Mili} style={{width:"80%",height:"auto",marginTop:"10%",border:"solid 4px"}}/>
                     <p style={{ marginLeft:"7%",textAlign:'left',fontSize: "18px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">好きなアーティストのサイトをMiliでを再現したサイト<br /></p>
 
                 </div>
