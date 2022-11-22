@@ -9,7 +9,7 @@ import profile from "../pics/profile.png";
 
 import SnsIcon from './SnsIcon';
 
-const MyName = () => {
+const Info = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -28,11 +28,10 @@ const MyName = () => {
                         <SnsIcon/>
 
                     <div className='content' style={{ height: "80%", width: "95%", backgroundColor: "#fce9ed", position: "absolute" ,marginTop:'15%',border:'solid 5px #807e8a'}}>
-                        <p style={{ marginLeft:"10%",textAlign:'left',fontSize: "20px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">📚が好き<br />'1984' '三日間の幸福' お気に入り<br /></p>
+                        <p style={{ marginLeft:"7%",textAlign:'left',fontSize: "20px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">六月頃に風邪を引いたプロボクサー、夏風邪天心<br /></p>
                         <p style={{ marginLeft:"10%",textAlign:'left',fontSize: "20px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font"></p>
-                        <p style={{ fontSize: "40px" }}>🐁</p>
-
-                        <p style={{ fontSize: "14px" }}>ひと心地ついたし<br/>そろそろアラスカを荒らすか・・・♠</p>
+                        <p style={{ fontSize: "40px" }}>🍆</p>
+                        <p style={{ fontSize: "40px" }}>🦑</p>
 
 
                     </div>
@@ -42,4 +41,4 @@ const MyName = () => {
 
     );
 };
-export default MyName;
+export default Info;

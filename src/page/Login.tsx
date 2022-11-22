@@ -1,28 +1,35 @@
-import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import React, { useRef, useEffect } from 'react'
-import video_mp4 from "./pics/Cockkirby.mp4"
-import "./css/Home.scss";
+import { motion, useScroll } from 'framer-motion';
+import { useEffect, useState } from 'react';
+import Background from './Components/background';
+import './css/Home.scss';
+
+
+import MyName from "./Components/Myprofile";
+import FadeIn from "./Components/FadeIn";
+import Info from "./Components/Infomation";
+
 const Login = () => {
-    const [isClose, setIsClose] = useState(false);
-    const videoRef = useRef<HTMLVideoElement>(null);
+    const [loading, setLoading] = useState(false);
     useEffect(() => {
-        videoRef.current?.play();
+        setLoading(true);
+        setTimeout(() => [setLoading(false)], 80000);
     }, []);
+
+    const [isOpen, setIsOpen] = useState(false);
     return (
-        <body>
         <div className='body_style'>
             <div className='SumahoBlock'>
-                {/*スマホ本体配置*/}
-                <div className='Sumaho_Position'>
-                    <motion.div layoutId='menkyo' className='nakami' />
-                    <div className='bunsyo'>こんいち</div>
 
+                <Background />
+                <motion.div layoutId='menkyo' className='nakami' />
+                <Info />
+                <FadeIn />
+                <div className='Sumaho_Position'>
                 </div>
             </div>
         </div>
-        </body>
+
     );
 };
+
 export default Login;

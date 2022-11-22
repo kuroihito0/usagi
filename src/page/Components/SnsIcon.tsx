@@ -12,19 +12,21 @@ const SnsIcon = () => {
 
     return (
         <>
-            <div style={{ display: "flex" }}>
-                <div style={{ position: 'absolute', backgroundColor: 'black', width: '85px', height: '80px', borderRadius: '30%', zIndex: '-1', marginLeft: '10%', marginTop: '4%' ,pointerEvents:'auto'}} />
+            <div style={{ display: "flex", justifyContent:'space-around'}}>
+
                 <motion.div className='iconBackground' whileHover={{ x: 10, y: 10 }}>
+                <a href='https://twitter.com/hikakin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor' target="_blank" rel="noopener noreferrer" className='Link'/>
                     <Twitter />
-                    <a href='https://twitter.com/hikakin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor' target="_blank" rel="noopener noreferrer" className='Link'/>
                 </motion.div>
 
-                <div style={{ position: 'absolute', backgroundColor: 'black', width: '85px', height: '80px', borderRadius: '30%', zIndex: '-1', marginLeft: '34.3%', marginTop: '4%',pointerEvents:'auto' }} />
-                <motion.div className='iconBackground' style={{ marginLeft: '7%' }} whileHover={{ x: 10, y: 10 }}>
-                    <Youtube />
+                
+                <motion.div className='iconBackground' whileHover={{ x: 10, y: 10 }} style={{marginRight:'45%'}}>
                     <a href='https://www.youtube.com/@HikakinTV' target="_blank" rel="noopener noreferrer" className='Link'/>
+                    <Youtube />
+                    
                 </motion.div>
-
+                <div style={{ position: 'absolute', backgroundColor: 'black', width: '85px', height: '80px', borderRadius: '30%', zIndex: '-1', marginRight: '69%', marginTop: '4%' ,pointerEvents:'auto'}} />
+                <div className='iconBack' style={{ position: 'absolute', backgroundColor: 'black', width: '85px', height: '80px', borderRadius: '30%', zIndex: '-1', marginRight: '14%', marginTop: '4%',pointerEvents:'auto' }} />
                 
             </div>
         </>

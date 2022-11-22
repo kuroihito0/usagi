@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import '../css/Home.scss';
 import "../css/Profile.scss"
 import profile from "../pics/profile.png";
-
+import Work from "../pics/Works1.png";
 
 
 import SnsIcon from './SnsIcon';
 
-const MyName = () => {
+const Works = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -24,22 +24,13 @@ const MyName = () => {
             >
                 <img src={profile} className="Profile" />
                 <div className='liner' style={{ border:'4px solid ',backgroundColor: "#d3ecfb", width: "100%", height: "100%", zIndex: "1", position: "absolute", marginTop: "30%", textAlign: "center", overflow: "auto", msOverflowStyle: 'none',borderRadius:'0 0 50% 50%'}}>
-                        <p className='header'>ヒカル ニシダ<br /></p>
-                        <SnsIcon/>
+                    <img src={Work} style={{width:"80%",height:"auto",marginTop:"10%",border:"solid 4px"}}/>
+                    <p style={{ marginLeft:"7%",textAlign:'left',fontSize: "18px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">好きなアーティストのサイトをMiliでを再現したサイト<br /></p>
 
-                    <div className='content' style={{ height: "80%", width: "95%", backgroundColor: "#fce9ed", position: "absolute" ,marginTop:'15%',border:'solid 5px #807e8a'}}>
-                        <p style={{ marginLeft:"10%",textAlign:'left',fontSize: "20px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">📚が好き<br />'1984' '三日間の幸福' お気に入り<br /></p>
-                        <p style={{ marginLeft:"10%",textAlign:'left',fontSize: "20px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font"></p>
-                        <p style={{ fontSize: "40px" }}>🐁</p>
-
-                        <p style={{ fontSize: "14px" }}>ひと心地ついたし<br/>そろそろアラスカを荒らすか・・・♠</p>
-
-
-                    </div>
                 </div>
             </motion.div >
         </>
 
     );
 };
-export default MyName;
+export default Works;

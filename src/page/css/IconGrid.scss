@@ -16,7 +16,6 @@
 //アイコンサイズ
 .TalkIcon_Size {
     z-index: 14;
-    margin-bottom: 60px;
     margin-left: 10%;
 		margin-top: 150px;
 }
@@ -44,51 +43,42 @@
 	align-items: center;
     margin-top: 3%;
     letter-spacing: 1px;
-    margin-left: 145%;
+    margin-left: 145%;  
 }
 
 
-@media screen and (max-width:545px) {
+@media screen and (max-width:600px) {
     .App1{
-        margin-left: 30%;
         width: 100%;
         height: 10%;
+        margin-left: 50%;    
     }
     .IconNameAbout{
-        margin-left: 50%;
+        margin-left: 100%;
     }
     .nakami{
-        width: 84%;
-        border-radius: 10% 5% 5% 5%;
-    }
-}
-
-@media screen and (max-width:504px) {
-    .nakami{
-        width: 90%;
-        border-radius: 5%;
+        border-radius: 0;
     }
 }
-@media screen and (max-width:471px){
-    .nakami{
-        width:95%;
-        border-radius: 10% 5% 5% 5%;
+@media screen and (max-width:480px) {
+    .App1{
+        width: 80px;
+        height: 10%;
+        margin-left: 40%;
+        
+    }
+    .IconNameAbout{
+        margin-left: 80%;
     }
 }
-@media screen and (max-width:445px){
-    .nakami{
-        width:84%;border-radius: 10% 7% 10% 10%;
+@media screen and (max-width:430px) {
+    .App1{
+        width: 55px;
+        height: 8%;
+        margin-left: 0%;
+        
     }
-}
-@media screen and (max-width:409px){
-    .nakami{
-        width:92%;
-        border-radius: 10% 7% 10% 10%
-    }
-}
-@media screen and (max-width:376px){
-    .nakami{
-        width: 100%;
-        border-radius: 10%;
+    .IconNameAbout{
+        margin-left: 0%;
     }
 }
