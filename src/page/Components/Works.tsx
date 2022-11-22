@@ -25,7 +25,7 @@ const Works = () => {
                 <img src={profile} className="Profile" />
                 <div className='liner' style={{ border:'4px solid ',backgroundColor: "#d3ecfb", width: "100%", height: "100%", zIndex: "1", position: "absolute", marginTop: "30%", textAlign: "center", overflow: "auto", msOverflowStyle: 'none',borderRadius:'0 0 50% 50%'}}>
                     <img src={Mili} style={{width:"80%",height:"auto",marginTop:"10%",border:"solid 4px"}}/>
-                    <p style={{ marginLeft:"7%",textAlign:'left',fontSize: "18px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">好きなアーティストのサイトを違うアーティスト再現したサイト<br /></p>
+                    <p style={{ marginLeft:"7%",textAlign:'left',fontSize: "18px" ,color:'black',lineHeight:'30px',fontWeight:'900'}} className="font">好きなアーティストのサイトを違うアーティストで再現したサイト<br /></p>
 
                 </div>
             </motion.div >
