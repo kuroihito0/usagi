@@ -20,8 +20,8 @@ const FadeIn = () => {
                     borderRadius: ["50%", "50%"]
                 }}
                 transition={{
-                    delay: 2,
-                    duration: 5
+                    delay: 1,
+                    duration: 4
                 }}
                 style={{ backgroundColor: "white", width: "50%", height: "30%", zIndex: "0", position: "absolute", marginTop: "40%", marginLeft: "25%", marginRight: "auto", borderRadius: "30%" }} />
         </motion.div>
